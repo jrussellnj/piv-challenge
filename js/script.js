@@ -2,7 +2,6 @@ const apiUrl = 'https://api.exchangeratesapi.io/latest';
 const perPage = 10;
 
 let originalExchangeData = null;
-let filteredExchangeData = null;
 
 // Kick off the API call on page load once the page DOM has loaded
 document.addEventListener('DOMContentLoaded', () => {
